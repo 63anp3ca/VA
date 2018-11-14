@@ -198,8 +198,8 @@ function loadCircularHeatMap (p_departamento, p_campana) {
   var fmt = d3.format(",d");
 
   queue()
-    .defer(d3.json, "https://raw.githubusercontent.com/63anp3ca/Proyecto-VA/master/colombia.geo.json")
-    .defer(d3.csv, "https://raw.githubusercontent.com/63anp3ca/Proyecto-VA/master/datafin.csv")
+    .defer(d3.json, "https://raw.githubusercontent.com/63anp3ca/VA/master/data/colombia.geo.json")
+    .defer(d3.csv, "https://raw.githubusercontent.com/63anp3ca/VA/master/data/datafin.csv")
     .await(function(error, mapData, dataset){
 
     

@@ -49,7 +49,7 @@ function loadCircularHeatline(p_financiador, p_monto)
 
         var x0AxisYear = d3.timeFormat("20" + "%y");
 
-        d3.text("https://raw.githubusercontent.com/63anp3ca/Proyecto-VA/master/SECOPGIS.csv", function(error, raw)
+        d3.text("https://raw.githubusercontent.com/63anp3ca/VA/master/data/SECOPGIS.csv", function(error, raw)
         {
         
               var data       = d3.dsvFormat(",").parse(raw);

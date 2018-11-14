@@ -36,7 +36,7 @@
     var size =d3.scaleLog().range([1,70]) // escala de la linea
 
     d3.queue()
-        .defer(d3.csv,"https://raw.githubusercontent.com/63anp3ca/Proyecto-VA/master/datafin.csv",parse)  // llama funcion parse para las columnas
+        .defer(d3.csv,"https://raw.githubusercontent.com/63anp3ca/VA/master/data/datafin.csv",parse)  // llama funcion parse para las columnas
         .await(ready)
        
      
