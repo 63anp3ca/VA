@@ -82,16 +82,17 @@ Presentar el número de contratos asignados a un financiador en un período de t
 ## HOW
 ###	Grafica Áreas
 Esta visualización consiste en la selección de departamentos, a través de un mapa de Colombia, que basado en una escala de colores enfatice la relación entre el departamento seleccionado y los departamentos financiadores de campañas políticas. Esta escala de colores tendrá como principal objetivo la atraer la percepción del usuario, señalando aquellos aportes que están en la escala alto, medio y bajo.
-Marks	-	ÁREAS (Departamento) 
-Channels	-	SATURATION (Atributo cuantitativo monto)
-Encode	-	ARRANGE 
-       -	EXPRESS   (Atributo cuantitativo monto)
-Manipulate	-	NAVIGATE 
-           -	SELECT (Departamento) 
-Facet	-	JUXTAPOSE 
-      -	MULTIFORM
-      -	OVERVIEW /DETAIL:
-      -	AGGREGATE  (Monto donación cuantitativa)
-Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórico departamento)
+•	Marks	-	ÁREAS (Departamento) 
+•	Channels	-	SATURATION (Atributo cuantitativo monto)
+•	Encode	-	ARRANGE 
+-	EXPRESS   (Atributo cuantitativo monto)
+•	Manipulate	-	NAVIGATE 
+-	SELECT (Departamento) 
+•	Facet	-	JUXTAPOSE 
+-	MULTIFORM
+-	OVERVIEW /DETAIL:
+-	AGGREGATE  (Monto donación cuantitativa)
+•	Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórico departamento)
+
 
 
