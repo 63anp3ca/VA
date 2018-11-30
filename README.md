@@ -23,7 +23,7 @@ Resumir los aportes a campañas políticas a nivel nacional por año.
 - ACTION (Summarize) (departamento: categórico)
 - TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada) 
 
-Tarea Secundaria 1:
+#### Tarea Secundaria 1:
 Resumir los aportes a campañas políticas a nivel departamental por año y departamento de origen de aporte.
 -	ACTION (Summarize) (departamento: categórico) 
 -	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento origen de aporte: categórico) 
@@ -111,5 +111,14 @@ Con esta visualización mostramos al usuario los candidatos de campañas políti
 
 ###	Grafica Línea de tiempo
 Permite observar una línea de tiempo correspondiente a la celebración de contratos propia de un financiador de campaña seleccionado, y en cada punto del gráfico podemos ver en qué campañas ha registrado como financiador
+
+- Marks	Líneas (Monto contrato)
+-	Marks Points (Aporte campaña/Datos contrato)
+- Channels	-	Position X cuantitative (Fecha)
+- Channels	Position Y cuantitative(Monto, aporte)  
+- Encode	-	ARRANGE  /	EXPRESS (Monto donación cuantitativa)
+- Manipulate	-	NAVIGATE / -	SELECT (Departamento) 
+- Facet	-	JUXTAPOSE / -	MULTIFORM /-	OVERVIEW /DETAIL: -	AGGREGATE (Monto donación cuantitativa)
+- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
 
 
