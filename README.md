@@ -1,5 +1,7 @@
 # Redes de Contratación Pública y Financiación de Campañas 
 
+![alt tag](https://github.com/63anp3ca/VA/blob/master/img/logodatasketch.png?raw=true)
+
 ## INTRODUCCION
  
 Datasketch es una plataforma digital de periodismo de investigación y de datos. Nuestro portal permite que periodistas, científicos de datos, científicos sociales y la ciudadanía en general pueda aprender y consultar sobre visualizaciones de datos, herramientas, software e investigaciones profundas sobre diversos temas coyunturales. Contamos con herramientas gratuitas de datos y diferentes proyectos para tender un puente entre los datos y la ciudadanía que facilite la democratización del conocimiento y una revisión crítica de las realidades sociales a partir de contrastes de información.
