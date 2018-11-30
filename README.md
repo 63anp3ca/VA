@@ -20,54 +20,49 @@ La Tabla Contratos_financiadores_data originalmente cuenta  79 atributos de los 
 ## WHY
 ### Tarea Principal 1.
 Resumir los aportes a campañas políticas a nivel nacional por año.
-
-•	ACTION (Summarize) (departamento: categórico) 
-•	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada) 
+- ACTION (Summarize) (departamento: categórico)
+- TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada) 
 
 Tarea Secundaria 1:
 Resumir los aportes a campañas políticas a nivel departamental por año y departamento de origen de aporte.
-
-•	ACTION (Summarize) (departamento: categórico) 
-•	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento origen de aporte: categórico) 
+-	ACTION (Summarize) (departamento: categórico) 
+-	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento origen de aporte: categórico) 
 
 Tarea Secundaria 2:
 Identificar los departamentos con mayor y menor aportes a las campañas.
-
-•	ACTION (Summarize) (departamento origen de aporte: categórico) 
-•	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento: categórico) 
+-	ACTION (Summarize) (departamento origen de aporte: categórico) 
+-	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento: categórico) 
 
 Tarea Secundaria 3:
 Identificar la distribución de los aportes a una campaña por departamento de ingreso.
-
-•	ACTION (Discover - Locate- Identify) (Departamento origen de aporte: categórico)  
-•	TARGETS– (Distribution) (Monto: cuantitativo)
-
+-	ACTION (Discover - Locate- Identify) (Departamento origen de aporte: categórico)  
+-	TARGETS– (Distribution) (Monto: cuantitativo)
 
 
 ### Tarea Principal 2: 
 Identificar los financiadores de campaña de cada candidato, su parentesco y su celebración de contratos con el estado.
-•	ACTION (Present – Explorer- Identify) (Financiador: categórico)  
-•	TARGETS– (Feature) (campaña: categórico, numeroContrato: categórico, monto: cuantitativa, parentesco: categórico)
+-	ACTION (Present – Explorer- Identify) (Financiador: categórico)  
+-	TARGETS– (Feature) (campaña: categórico, numeroContrato: categórico, monto: cuantitativa, parentesco: categórico)
 
 Tarea Secundaria 1: 
 Presentar parentescos de los candidatos con los financiadores de campañas. 
-•	ACTION (Present – Explore - Identify) (candidato: categórico)  
-•	TARGETS– (Feature) (financiador: categórico, parentesco: categórico, monto: cuantitativo)
+-	ACTION (Present – Explore - Identify) (candidato: categórico)  
+-	TARGETS– (Feature) (financiador: categórico, parentesco: categórico, monto: cuantitativo)
 
 Tarea Secundaria 2: 
 Identificar financiadores de múltiples campañas
-•	ACTION (Present – Explore - Identify) (Financiador: categórico)  
-•	TARGETS– (Feature) (Candidato: categórico, monto: cuantitativo)
+-	ACTION (Present – Explore - Identify) (Financiador: categórico)  
+-	TARGETS– (Feature) (Candidato: categórico, monto: cuantitativo)
 
 Tarea Secundaria 3: 
 Resumir el total de aportes por candidato 
-•	ACTION (Summarize) (candidato: categórico) 
-•	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
+-	ACTION (Summarize) (candidato: categórico) 
+-	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
 
 Tarea Secundaria 4: 
 Identificar los candidatos con mayor de financiación de campañas.
-•	ACTION (Summarize) (candidato: categórico) 
-•	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
+-	ACTION (Summarize) (candidato: categórico) 
+-	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
 
 ### Tarea Principal 3: 
 Identificar relación entre el monto del financiamiento y la cantidad de contratos otorgados al financiador. 
