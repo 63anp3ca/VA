@@ -20,11 +20,13 @@ La Tabla Contratos_financiadores_data originalmente cuenta  79 atributos de los 
 ## WHY
 ### Tarea Principal 1.
 Resumir los aportes a campañas políticas a nivel nacional por año.
+
 •	ACTION (Summarize) (Departamento) 
 •	TARGETS – (Features) (Campaña - Valor total de aportes – cuantitativa calculada) 
 
 Tarea Secundaria 1
 Resumir los aportes a campañas políticas a nivel departamental por año y departamento de origen de aporte.
+
 •	ACTION (Summarize) (Departamento) 
 •	TARGETS – (Features) (Campaña - Valor total de aportes – cuantitativa calculada - Departamento origen de aporte) 
 
@@ -40,6 +42,7 @@ Identificar la distribución de los aportes a una campaña por departamento de i
 
 ### Tarea Principal 2: 
 Identificar los financiadores de campaña de cada candidato, su parentesco y su celebración de contratos con el estado.
+
 •	ACTION (Present – Explorer- Identify) (Financiadores)  
 •	TARGETS– (Feature) (campaña, contratos, monto, y parentesco)
 
