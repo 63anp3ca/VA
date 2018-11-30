@@ -44,7 +44,45 @@ Identificar la distribución de los aportes a una campaña por departamento de i
 
 
 
+### Tarea Principal 2: 
+Identificar los financiadores de campaña de cada candidato, su parentesco y su celebración de contratos con el estado.
+•	ACTION (Present – Explorer- Identify) (Financiador: categórico)  
+•	TARGETS– (Feature) (campaña: categórico, numeroContrato: categórico, monto: cuantitativa, parentesco: categórico)
 
+Tarea Secundaria 1: 
+Presentar parentescos de los candidatos con los financiadores de campañas. 
+•	ACTION (Present – Explore - Identify) (candidato: categórico)  
+•	TARGETS– (Feature) (financiador: categórico, parentesco: categórico, monto: cuantitativo)
+
+Tarea Secundaria 2: 
+Identificar financiadores de múltiples campañas
+•	ACTION (Present – Explore - Identify) (Financiador: categórico)  
+•	TARGETS– (Feature) (Candidato: categórico, monto: cuantitativo)
+
+Tarea Secundaria 3: 
+Resumir el total de aportes por candidato 
+•	ACTION (Summarize) (candidato: categórico) 
+•	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
+
+Tarea Secundaria 4: 
+Identificar los candidatos con mayor de financiación de campañas.
+•	ACTION (Summarize) (candidato: categórico) 
+•	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
+
+### Tarea Principal 3: 
+Identificar relación entre el monto del financiamiento y la cantidad de contratos otorgados al financiador. 
+•	ACTION (Present – Locate - Identify) (financiador: categórico)  
+•	TARGETS - (Features) (contrato: categórico, monto: cuantitativo y fecha contrato: secuencial)
+
+Tarea Secundaria 1: 
+Conocer el comportamiento de contratación para el financiador antes y después de un aporte.  
+•	ACTION (Present – Locate - Identify) (financiador: categórico)  
+•	TARGETS- (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, monto: cuantitativa,fecha contrato: secuencial)
+
+Tarea Secundaria 2: 
+Presentar el número de contratos asignados a un financiador en un período de tiempo.
+•	ACTION (Present – Locate - Identify) (financiador: categórico)  
+•	TARGETS – (Features) (contratos: categórico, fecha de inicio: secuencial)
 
 
 
