@@ -23,6 +23,22 @@ Resumir los aportes a campañas políticas a nivel nacional por año.
 •	ACTION (Summarize) (departamento: categórico) 
 •	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada) 
 
+Tarea Secundaria 1:
+Resumir los aportes a campañas políticas a nivel departamental por año y departamento de origen de aporte.
+•	ACTION (Summarize) (departamento: categórico) 
+•	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento origen de aporte: categórico) 
+
+Tarea Secundaria 2:
+Identificar los departamentos con mayor y menor aportes a las campañas.
+•	ACTION (Summarize) (departamento origen de aporte: categórico) 
+•	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento: categórico) 
+
+Tarea Secundaria 3:
+Identificar la distribución de los aportes a una campaña por departamento de ingreso.
+•	ACTION (Discover - Locate- Identify) (Departamento origen de aporte: categórico)  
+•	TARGETS– (Distribution) (Monto: cuantitativo)
+
+
 
 
 
