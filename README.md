@@ -66,36 +66,41 @@ Identificar los candidatos con mayor de financiación de campañas.
 
 ### Tarea Principal 3: 
 Identificar relación entre el monto del financiamiento y la cantidad de contratos otorgados al financiador. 
-•	ACTION (Present – Locate - Identify) (financiador: categórico)  
-•	TARGETS - (Features) (contrato: categórico, monto: cuantitativo y fecha contrato: secuencial)
+-	ACTION (Present – Locate - Identify) (financiador: categórico)  
+-	TARGETS - (Features) (contrato: categórico, monto: cuantitativo y fecha contrato: secuencial)
 
 Tarea Secundaria 1: 
 Conocer el comportamiento de contratación para el financiador antes y después de un aporte.  
-•	ACTION (Present – Locate - Identify) (financiador: categórico)  
-•	TARGETS- (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, monto: cuantitativa,fecha contrato: secuencial)
+-	ACTION (Present – Locate - Identify) (financiador: categórico)  
+-	TARGETS- (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, monto: cuantitativa,fecha contrato: secuencial)
 
 Tarea Secundaria 2: 
 Presentar el número de contratos asignados a un financiador en un período de tiempo.
-•	ACTION (Present – Locate - Identify) (financiador: categórico)  
-•	TARGETS – (Features) (contratos: categórico, fecha de inicio: secuencial)
+-	ACTION (Present – Locate - Identify) (financiador: categórico)  
+-	TARGETS – (Features) (contratos: categórico, fecha de inicio: secuencial)
 
 
 
 ## HOW
 ###	Grafica Áreas
-Esta visualización consiste en la selección de departamentos, a través de un mapa de Colombia, que basado en una escala de colores enfatice la relación entre el departamento seleccionado y los departamentos financiadores de campañas políticas. Esta escala de colores tendrá como principal objetivo la atraer la percepción del usuario, señalando aquellos aportes que están en la escala alto, medio y bajo.
-•	Marks	-	ÁREAS (Departamento) 
-•	Channels	-	SATURATION (Atributo cuantitativo monto)
-•	Encode	-	ARRANGE 
--	EXPRESS   (Atributo cuantitativo monto)
-•	Manipulate	-	NAVIGATE 
--	SELECT (Departamento) 
-•	Facet	-	JUXTAPOSE 
--	MULTIFORM
--	OVERVIEW /DETAIL:
--	AGGREGATE  (Monto donación cuantitativa)
-•	Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórico departamento)
+Esta visualización consiste en la selección de departamentos, a través de un mapa de Colombia, que basado en una escala de colores enfatice la relación entre el departamento seleccionado y los departamentos financiadores de campañas políticas. Esta escala de colores tendrá como principal objetivo, atraer la percepción del usuario, señalando aquellos aportes que están en la escala alto, medio y bajo.
+
+- Marks	-	ÁREAS (Departamento) 
+- Channels	-	SATURATION (Atributo cuantitativo monto)
+- Encode	-	ARRANGE  EXPRESS   (Atributo cuantitativo monto)
+- Manipulate	/	NAVIGATE / SELECT (Departamento) 
+- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE  (Monto donación cuantitativa)
+- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórico departamento)
 
 
+
+
+
+###	Grafica Red
+Con esta visualización mostramos al usuario los candidatos de campañas políticas, y los contratistas del estado que se encuentran registrados como financiadores de sus campañas, está consiste en identificar el vínculo directo con uno o varios candidatos de la campaña y su categorización de aporte en el rango de medio, alto y bajo, además de presentar o no la relación de parentesco a juicio del usuario.
+
+
+###	Grafica Línea de tiempo
+Permite observar una línea de tiempo correspondiente a la celebración de contratos propia de un financiador de campaña seleccionado, y en cada punto del gráfico podemos ver en qué campañas ha registrado como financiador
 
 
