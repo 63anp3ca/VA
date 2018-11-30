@@ -1,6 +1,6 @@
 # Redes de Contratación Pública y Financiación de Campañas 
 
-![alt tag](https://github.com/63anp3ca/VA/blob/master/img/logodatasketch.png?raw=true)
+![alt tag](https://github.com/63anp3ca/VA/blob/master/img/presentacion.JPG?raw=true)
 
 ## INTRODUCCION
  
