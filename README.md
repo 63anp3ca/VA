@@ -99,6 +99,15 @@ Esta visualización consiste en la selección de departamentos, a través de un 
 ###	Grafica Red
 Con esta visualización mostramos al usuario los candidatos de campañas políticas, y los contratistas del estado que se encuentran registrados como financiadores de sus campañas, está consiste en identificar el vínculo directo con uno o varios candidatos de la campaña y su categorización de aporte en el rango de medio, alto y bajo, además de presentar o no la relación de parentesco a juicio del usuario.
 
+- Marks	-	Points (Candidato-financiador)  
+-	Líneas (relación candidato financiador)
+- Channels	HUE (Atributo categórico candidato - financiador)  
+-	Channels SIZE(Tamaño del candidato relacionado con monto recibido)
+- Encode	-	ARRANGE / 	EXPRESS (Monto donación cuantitativa)
+-  Manipulate	-	NAVIGATE /	SELECT (Departamento) 
+- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE (Monto donación cuantitativa)
+- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
+
 
 ###	Grafica Línea de tiempo
 Permite observar una línea de tiempo correspondiente a la celebración de contratos propia de un financiador de campaña seleccionado, y en cada punto del gráfico podemos ver en qué campañas ha registrado como financiador
