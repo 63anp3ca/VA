@@ -125,10 +125,10 @@ Permite observar una línea de tiempo correspondiente a la celebración de contr
 
 
 ## Link de Documentos
-###	aplicación 
+###	Aplicación 
 https://63anp3ca.github.io/VA/
 
-###	presentación
+###	Presentación
 https://docs.google.com/presentation/d/1JX8IQJY9JMYXNin8PgF_epyu-FFbpQKzWHwqCPMwUJA/edit#slide=id.g3f50ba3cfe_1_0
 
 ###	GitHub
