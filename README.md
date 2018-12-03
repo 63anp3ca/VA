@@ -124,3 +124,19 @@ Permite observar una línea de tiempo correspondiente a la celebración de contr
 - Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
 
 
+## Link de Documentos
+###	aplicación 
+https://63anp3ca.github.io/VA/
+
+###	presentación
+https://docs.google.com/presentation/d/1JX8IQJY9JMYXNin8PgF_epyu-FFbpQKzWHwqCPMwUJA/edit#slide=id.g3f50ba3cfe_1_0
+
+###	GitHub
+https://github.com/63anp3ca/VA
+
+###	Video
+https://www.youtube.com/watch?v=e7HO6224Os0&feature=youtu.be
+
+
+
+
