@@ -84,55 +84,53 @@ Present the number of contracts assigned to a funder in a period of time
 
 
 ## HOW
-###	Grafica Áreas
-Esta visualización consiste en la selección de departamentos, a través de un mapa de Colombia, que basado en una escala de colores enfatice la relación entre el departamento seleccionado y los departamentos financiadores de campañas políticas. Esta escala de colores tendrá como principal objetivo, atraer la percepción del usuario, señalando aquellos aportes que están en la escala alto, medio y bajo.
-
-- Marks	-	ÁREAS (Departamento) 
-- Channels	-	SATURATION (Atributo cuantitativo monto)
-- Encode	-	ARRANGE  EXPRESS   (Atributo cuantitativo monto)
-- Manipulate	/	NAVIGATE / SELECT (Departamento) 
-- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE  (Monto donación cuantitativa)
-- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórico departamento)
+###	Graphic Areas
+This visualization consists in choosing departments, through a Colombian map, which based on a color scale emphasizes the relationship between the selected department and the financing departments of the political campaigns. This color scale will have as main objective, to attract the perception of the user, pointing out those contributions that are in the high, medium and low scale.
 
 
+- Marks	-	-	AREAS (Department) 
+- Channels	-	-	SATURATION (Attribute quantitative consideration)
+- Encode	-	ARRANGE  EXPRESS   (Attribute quantitative consideration)
+- Manipulate	/	NAVIGATE / SELECT (Department) 
+- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE  (Consideration quantitative)
+- Reduce	-	FILTER: he proposed idiom allows the application of a filter (Categorical department)
 
 
+###	Network Chart
+With this visualization the user gets to see, the candidates of political campaigns, the state contractors that are registered as funders of its own campaigns. It consists in identifying the direct link with one or several candidates of the campaign and its categorization of the contribution in the high, medium and low rank, in addition to show or not, the relationship to the user’s judgement.
 
-###	Grafica Red
-Con esta visualización mostramos al usuario los candidatos de campañas políticas, y los contratistas del estado que se encuentran registrados como financiadores de sus campañas, está consiste en identificar el vínculo directo con uno o varios candidatos de la campaña y su categorización de aporte en el rango de medio, alto y bajo, además de presentar o no la relación de parentesco a juicio del usuario.
-
-- Marks	-	Points (Candidato-financiador)  
--	Líneas (relación candidato financiador)
-- Channels	HUE (Atributo categórico candidato - financiador)  
--	Channels SIZE(Tamaño del candidato relacionado con monto recibido)
-- Encode	-	ARRANGE / 	EXPRESS (Monto donación cuantitativa)
--  Manipulate	-	NAVIGATE /	SELECT (Departamento) 
-- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE (Monto donación cuantitativa)
-- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
+- Marks	-	Points (Candidate - Funder)  
+-	Marks - Lines (Relationship Candidate - Funder)
+- Channels	-	HUE (Attribute Categorical Candidate - Funder)    
+-	Channels -	SIZE (size of Candidate - Consideration)
+- Encode	-	ARRANGE / 	EXPRESS (Consideration quantitative)
+- Manipulate	-	NAVIGATE /	SELECT (Relationship) 
+- Facet	-	JUXTAPOSE / MULTIFORM /	OVERVIEW /DETAIL: AGGREGATE (Consideration quantitative)
+- Reduce	-	-	FILTRO: the proposed idiom allows the application of a filter (categorical Relationship)
 
 
-###	Grafica Línea de tiempo
-Permite observar una línea de tiempo correspondiente a la celebración de contratos propia de un financiador de campaña seleccionado, y en cada punto del gráfico podemos ver en qué campañas ha registrado como financiador
+###	Timeline Chart
+It allows to observe timeline corresponding to the conclusion of contracts of a selected campaign funder. Each point of the chart shows in which campaigns a funder has been registered.
 
-- Marks	Líneas (Monto contrato)
--	Marks Points (Aporte campaña/Datos contrato)
-- Channels	-	Position X cuantitative (Fecha)
-- Channels	Position Y cuantitative(Monto, aporte)  
-- Encode	-	ARRANGE  /	EXPRESS (Monto donación cuantitativa)
-- Manipulate	-	NAVIGATE / -	SELECT (Departamento) 
-- Facet	-	JUXTAPOSE / -	MULTIFORM /-	OVERVIEW /DETAIL: -	AGGREGATE (Monto donación cuantitativa)
-- Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
+- Marks	-	Lines (Contract Amount)
+-	Marks -	Points (Consideration, Campaign / Contract Number)
+- Channels	-	Position X quantitative (Start Date)
+- Channels	-	Position Y quantitative (Contract Amount)  
+- Encode	-	ARRANGE  /	EXPRESS (Consideration quantitative)
+- Manipulate	-N/A
+- Facet	-	JUXTAPOSE / -	MULTIFORM /-	OVERVIEW /DETAIL: -	AGGREGATE (Contract Amount)
+- Reduce	-	N/A
 
-###	Autores
+###	Members
 - Gerardo Antonio Perez Clavijo
 - Ivan Rodrigo Romero Florez
 - Stanley Smith Melo Fontalvo
 
-## Link de Documentos
-###	Aplicación 
+## Link to Documents
+###	Application 
 https://63anp3ca.github.io/VA/
 
-###	Presentación
+###	Presentation
 https://docs.google.com/presentation/d/1JX8IQJY9JMYXNin8PgF_epyu-FFbpQKzWHwqCPMwUJA/edit#slide=id.g3f50ba3cfe_1_0
 
 ###	GitHub
