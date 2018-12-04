@@ -1,85 +1,85 @@
-# Redes de Contratación Pública y Financiación de Campañas 
+# Politicians campaign financing and contracts network 
 
 ![alt tag](https://github.com/63anp3ca/VA/blob/master/img/presentacion.JPG?raw=true)
 
-## INTRODUCCION
+## INTRODUCTION
  
-Datasketch es una plataforma digital de periodismo de investigación y de datos. Nuestro portal permite que periodistas, científicos de datos, científicos sociales y la ciudadanía en general pueda aprender y consultar sobre visualizaciones de datos, herramientas, software e investigaciones profundas sobre diversos temas coyunturales. Contamos con herramientas gratuitas de datos y diferentes proyectos para tender un puente entre los datos y la ciudadanía que facilite la democratización del conocimiento y una revisión crítica de las realidades sociales a partir de contrastes de información.
+Datasketch is a digital platform specialized in journalistic research and data. It provides a portal that allows journalists, data scientists, social scientist and citizens in general, to learn and consult about data visualization, tools, software and in-depth research about several conjunctural subjects. It has free data tools and different projects in order to create a link between the data and the citizenship, facilitating the democratization of knowledge and a critical review about social realities based on information contrasts..
 
-## OBJETIVO
-Visualizar posibles irregularidades en el financiamiento de campañas políticas para Congreso y Territoriales agregadas a nivel departamental, y su influencia en la contratación pública
+## OBJECTIVE
+Provide visualization tools that let the possible irregularities in the financing of political campaigns for Congress and territorial aggregates at a departmental level to be explored, and their influence on public procurements.
 
 
 ## WHAT
 Dataset
-El conjunto de datos es de tipo tabla y se describen la fuente a continuación:
--	Contratos_financiadores_data: esta tabla contiene 149,070 registros y su propósito es obtener la información de contratación pública de las entidades estatales, con respecto a los proveedores de servicios correspondientes. (2010-2017) financiadores que ha tenido contratos con el estado.
+The data set is a table type and it’s descripted as following:
+-	Contratos_financiadores_data: this table contains 149,070 records and its purpose is to obtain public procurement information from state entities, with regard to the corresponding service providers. (2010 -2017) funders that have had contracts with the state..
 
-Tipos de atributos
-La Tabla Contratos_financiadores_data originalmente cuenta  79 atributos de los cuales se eligieron 17 atributos, que presentan la siguiente tabla:
+Types of attributes:
+The table Contratos_financiadores_data originally has 79 attributes from which 17 were picked.
 
 
 ## WHY
-### Tarea Principal 1.
-Resumir los aportes a campañas políticas a nivel nacional por año.
-- ACTION (Summarize) (departamento: categórico)
-- TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada) 
+### Main Task 1..
+Summarize the contributions made to political campaigns nationwide per year
+- ACTION (Summarize) (department: Categorical) 
+- TARGETS – (Features) (campaign: Categorical, total contributions: quantitative calculated)  
 
-#### Tarea Secundaria 1:
-Resumir los aportes a campañas políticas a nivel departamental por año y departamento de origen de aporte.
--	ACTION (Summarize) (departamento: categórico) 
--	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento origen de aporte: categórico) 
+#### Secondary Task 1
+Obtain a list of contributions made to political campaigns at a department level.
+-	ACTION (Summarize) (department: Categorical) 
+-	TARGETS – (Features) (campaign: Categorical, total contributions: quantitative calculated, department of origin of the contribution: Categorical)  
 
-#### Tarea Secundaria 2:
-Identificar los departamentos con mayor y menor aportes a las campañas.
--	ACTION (Summarize) (departamento origen de aporte: categórico) 
--	TARGETS – (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, departamento: categórico) 
+#### Secondary Task 2:
+Identify departments with greater and lesser contributions to campaigns
+-	ACTION (Summarize) (department of origin of the contribution: Categorical) 
+-	TARGETS – (Features) (campaign): Categorical, total contributions: quantitative calculated, department: Categorical) 
 
-#### Tarea Secundaria 3:
-Identificar la distribución de los aportes a una campaña por departamento de ingreso.
--	ACTION (Discover - Locate- Identify) (Departamento origen de aporte: categórico)  
--	TARGETS– (Distribution) (Monto: cuantitativo)
+#### Secondary Task 3:
+Identify the distribution of contributions to a campaign by income of the department.
+-	ACTION (Discover - Locate- Identify) (department of origin of the contribution: Categorical)    
+-	TARGETS– (Distribution) (Consideration: quantitative)
 
 
-### Tarea Principal 2: 
-Identificar los financiadores de campaña de cada candidato, su parentesco y su celebración de contratos con el estado.
--	ACTION (Present – Explorer- Identify) (Financiador: categórico)  
--	TARGETS– (Feature) (campaña: categórico, numeroContrato: categórico, monto: cuantitativa, parentesco: categórico)
+### Main Task 2: 
+Identify each candidate’s campaign funders, as well as their relationships and contracts with the State.
+-	ACTION (Present – Explorer- Identify) (Funder: Categorical)    
+-	TARGETS– (Feature) (campaign: Categorical, Contract Number: Categorical, consideration: quantitative, relationship: Categorical)
 
-#### Tarea Secundaria 1: 
-Presentar parentescos de los candidatos con los financiadores de campañas. 
--	ACTION (Present – Explore - Identify) (candidato: categórico)  
--	TARGETS– (Feature) (financiador: categórico, parentesco: categórico, monto: cuantitativo)
+#### Secondary Task 1:  
+Present candidates' relationships with campaign funders. 
+-	ACTION (Present – Explore - Identify) (candidate: Categorical)    
+-	TARGETS– (Feature) (funder: Categorical, relationship: Categorical, consideration: quantitative)
 
-#### Tarea Secundaria 2: 
-Identificar financiadores de múltiples campañas
--	ACTION (Present – Explore - Identify) (Financiador: categórico)  
--	TARGETS– (Feature) (Candidato: categórico, monto: cuantitativo)
-
-#### Tarea Secundaria 3: 
-Resumir el total de aportes por candidato 
+#### Secondary Task 2: 
+Identify funders of multiple campaigns 
 -	ACTION (Summarize) (candidato: categórico) 
 -	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
 
-#### Tarea Secundaria 4: 
-Identificar los candidatos con mayor de financiación de campañas.
--	ACTION (Summarize) (candidato: categórico) 
--	TARGETS – (Features) (financiador: categórico, valor total de aportes: cuantitativa calculada) 
+#### Secondary Task 3:  
+Summarize the total contributions per candidate
+-	ACTION (Summarize) (candidate: Categorical)  
+-	TARGETS – (Features) (Funder: Categorical, total contributions: quantitative calculated) 
 
-### Tarea Principal 3: 
-Identificar relación entre el monto del financiamiento y la cantidad de contratos otorgados al financiador. 
--	ACTION (Present – Locate - Identify) (financiador: categórico)  
--	TARGETS - (Features) (contrato: categórico, monto: cuantitativo y fecha contrato: secuencial)
+#### Secondary Task 4: 
+Identify the candidates with the most campaign financing.
+-	ACTION (Summarize) (candidate: Categorical) 
+-	TARGETS – (Features) (Funder: Categorical, total contributions: quantitative calculated) 
 
-#### Tarea Secundaria 1: 
-Conocer el comportamiento de contratación para el financiador antes y después de un aporte.  
--	ACTION (Present – Locate - Identify) (financiador: categórico)  
--	TARGETS- (Features) (campaña: categórico, valor total de aportes: cuantitativa calculada, monto: cuantitativa,fecha contrato: secuencial)
+### Main Task 3:  
+Identify the relationship between the amount of financing and the number of contracts awarded to the funder.  
+-	ACTION (Present – Locate - Identify) (Funder: Categorical)    
+-	TARGETS - (Features) (contract: Categorical, consideration: quantitative y contract date: sequential)
 
-#### Tarea Secundaria 2: 
-Presentar el número de contratos asignados a un financiador en un período de tiempo.
--	ACTION (Present – Locate - Identify) (financiador: categórico)  
--	TARGETS – (Features) (contratos: categórico, fecha de inicio: secuencial)
+#### Secondary Task 1:  
+Know the contracting behavior for the funder before and after a contribution  
+-	ACTION (Present – Locate - Identify) (funder: Categorical)    
+-	TARGETS- (Features) (campaign: Categorical, total of contributions: quantitative calculated, consideration: quantitative, contract date: sequential)
+
+#### Secondary Task 2:  
+Present the number of contracts assigned to a funder in a period of time
+-	ACTION (Present – Locate - Identify) (Funder: Categorical)    
+-	TARGETS – (Features) (contracts: Categorical, start date: sequential)
 
 
 
