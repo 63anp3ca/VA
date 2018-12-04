@@ -123,6 +123,10 @@ Permite observar una línea de tiempo correspondiente a la celebración de contr
 - Facet	-	JUXTAPOSE / -	MULTIFORM /-	OVERVIEW /DETAIL: -	AGGREGATE (Monto donación cuantitativa)
 - Reduce	-	FILTRO: el modismo propuesto permite la aplicación de un filtro (categórica Parentesco)
 
+###	Autores
+- Gerardo Antonio Perez Clavijo
+- Ivan Rodrigo Romero Florez
+- Stanley Smith Melo Fontalvo
 
 ## Link de Documentos
 ###	Aplicación 
