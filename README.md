@@ -3,6 +3,8 @@
 ![alt tag](https://github.com/63anp3ca/VA/blob/master/img/presentacion.JPG?raw=true)
 
 ###	Paper
+A continuación, el enlace al paper del projecto:
+
 https://docs.google.com/document/d/1ozn7Li8_N6dC5guDjG0KkcUO4Cgy30kKby6obk6Siuk/edit?usp=sharing
 https://github.com/63anp3ca/VA/tree/master/paper
 
