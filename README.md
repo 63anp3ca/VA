@@ -2,6 +2,11 @@
 
 ![alt tag](https://github.com/63anp3ca/VA/blob/master/img/presentacion.JPG?raw=true)
 
+###	Paper
+https://docs.google.com/document/d/1ozn7Li8_N6dC5guDjG0KkcUO4Cgy30kKby6obk6Siuk/edit?usp=sharing
+https://github.com/63anp3ca/VA/tree/master/paper
+
+
 ## INTRODUCTION
  
 Datasketch is a digital platform specialized in journalistic research and data. It provides a portal that allows journalists, data scientists, social scientist and citizens in general, to learn and consult about data visualization, tools, software and in-depth research about several conjunctural subjects. It has free data tools and different projects in order to create a link between the data and the citizenship, facilitating the democratization of knowledge and a critical review about social realities based on information contrasts..
@@ -140,7 +145,4 @@ https://github.com/63anp3ca/VA
 https://www.youtube.com/watch?v=e7HO6224Os0&feature=youtu.be
 
 
-###	Paper
-https://docs.google.com/document/d/1ozn7Li8_N6dC5guDjG0KkcUO4Cgy30kKby6obk6Siuk/edit?usp=sharing
-https://github.com/63anp3ca/VA/tree/master/paper
 
