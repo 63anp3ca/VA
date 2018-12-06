@@ -141,5 +141,6 @@ https://www.youtube.com/watch?v=e7HO6224Os0&feature=youtu.be
 
 
 ###	Paper
+https://docs.google.com/document/d/1ozn7Li8_N6dC5guDjG0KkcUO4Cgy30kKby6obk6Siuk/edit?usp=sharing
 https://github.com/63anp3ca/VA/tree/master/paper
 
