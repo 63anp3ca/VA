@@ -94,6 +94,7 @@ Present the number of contracts assigned to a funder in a period of time
 ###	Graphic Areas
 This visualization consists in choosing departments, through a Colombian map, which based on a color scale emphasizes the relationship between the selected department and the financing departments of the political campaigns. This color scale will have as main objective, to attract the perception of the user, pointing out those contributions that are in the high, medium and low scale.
 
+![alt tag](https://github.com/63anp3ca/VA/blob/master/img/v1.JPG?raw=true)
 
 - Marks	-	-	AREAS (Department) 
 - Channels	-	-	SATURATION (Attribute quantitative consideration)
@@ -105,6 +106,8 @@ This visualization consists in choosing departments, through a Colombian map, wh
 
 ###	Network Chart
 With this visualization the user gets to see, the candidates of political campaigns, the state contractors that are registered as funders of its own campaigns. It consists in identifying the direct link with one or several candidates of the campaign and its categorization of the contribution in the high, medium and low rank, in addition to show or not, the relationship to the user’s judgement.
+
+![alt tag](https://github.com/63anp3ca/VA/blob/master/img/v2.JPG?raw=true)
 
 - Marks	-	Points (Candidate - Funder)  
 -	Marks - Lines (Relationship Candidate - Funder)
@@ -118,6 +121,8 @@ With this visualization the user gets to see, the candidates of political campai
 
 ###	Timeline Chart
 It allows to observe timeline corresponding to the conclusion of contracts of a selected campaign funder. Each point of the chart shows in which campaigns a funder has been registered.
+
+![alt tag](https://github.com/63anp3ca/VA/blob/master/img/v3.JPG?raw=true)
 
 - Marks	-	Lines (Contract Amount)
 -	Marks -	Points (Consideration, Campaign / Contract Number)
